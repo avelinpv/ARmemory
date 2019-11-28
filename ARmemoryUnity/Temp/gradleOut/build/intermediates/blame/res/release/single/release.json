@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/raw_keep_arcore.xml.flat",
+        "source": "/home/avelinpv/.gradle/caches/transforms-2/files-2.1/f64093bddf42a01dcbf07afefec903e4/res/raw/keep_arcore.xml"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/layout___arcore_education.xml.flat",
+        "source": "/home/avelinpv/.gradle/caches/transforms-2/files-2.1/f64093bddf42a01dcbf07afefec903e4/res/layout/__arcore_education.xml"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    }
+]
