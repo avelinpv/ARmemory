@@ -81,6 +81,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Editor">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -96,26 +99,14 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
- </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
- <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -123,8 +114,17 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/home/avelinpv/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -330,17 +330,17 @@
  <Reference Include="Google.Protobuf">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
  </Reference>
- <Reference Include="Google.JarResolver_v1.2.122.0">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
+ <Reference Include="Google.IOSResolver_v1.2.122.0">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
+ <Reference Include="Google.JarResolver_v1.2.122.0">
+ <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
+ </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.IOSResolver_v1.2.122.0">
- <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

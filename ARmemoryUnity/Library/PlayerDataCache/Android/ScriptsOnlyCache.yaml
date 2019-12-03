@@ -11,7 +11,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.Common.PlaneDiscoveryGuide
     - GoogleARCore.Examples.Common.PointcloudVisualizer
     - GoogleARCore.Examples.Common.RawImageVideoPlayer
-    - GoogleARCore.Examples.HelloAR.HelloARController
+    - GoogleARCore.Examples.HelloAR.PositionObjects
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
@@ -32,7 +33,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity:
+    Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -74,8 +75,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10534}
     - Class: 114
-      Script: {instanceID: 10558}
-    - Class: 114
       Script: {instanceID: 10736}
     - Class: 114
       Script: {instanceID: 10916}
@@ -99,6 +98,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11808}
     - Class: 114
       Script: {instanceID: 12152}
+    - Class: 114
+      Script: {instanceID: 14582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -880,7 +881,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f3d1807a613ed4b83d9c90e8aa51a8a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.HelloAR
+    className: PositionObjects
   platform: 13
   scenePathNames:
-  - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/buildAR.apk
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/buildSampleScene.apk
