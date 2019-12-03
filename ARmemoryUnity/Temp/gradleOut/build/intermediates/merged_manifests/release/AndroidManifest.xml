@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.DefaultCompany.ARmemoryUnity"
+    package="com.DefaultCompany.ObjectManipulationU3D"
     android:installLocation="preferExternal"
     android:versionCode="1"
     android:versionName="0.1" >
@@ -68,7 +68,7 @@
             android:value="true" />
         <meta-data
             android:name="unity.build-id"
-            android:value="3c6f875f-bdde-492c-9021-79b0365ff84c" />
+            android:value="1041962f-9192-4e9d-813c-8930449351bd" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

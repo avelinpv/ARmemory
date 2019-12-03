@@ -14,7 +14,7 @@ INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/s
 INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-112
+		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-120
 		INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml
 		INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml
 	android:versionName
@@ -22,7 +22,7 @@ INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/s
 		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:113-159
+		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:121-167
 	android:versionCode
 		INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml
 		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-27:12
@@ -30,7 +30,7 @@ INJECTED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/s
 	xmlns:android
 		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:160-200
+		ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:2:168-208
 supports-screens
 ADDED from /home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/AndroidManifest.xml:3:3-163
 	android:largeScreens

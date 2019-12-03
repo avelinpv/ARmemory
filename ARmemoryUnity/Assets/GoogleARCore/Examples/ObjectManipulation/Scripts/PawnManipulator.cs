@@ -22,6 +22,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
 {
     using GoogleARCore;
     using UnityEngine;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Controls the placement of objects via a tap gesture.
@@ -37,7 +38,9 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a plane.
         /// </summary>
-        public GameObject PawnPrefab;
+        public GameObject[] ObjectPrefabList;
+        /// public List<GameObject> ObjectPrefabList = new List<GameObject>();
+        public int selectedObject = 0;
 
         /// <summary>
         /// Manipulator prefab to attach placed objects to.
@@ -93,15 +96,19 @@ namespace GoogleARCore.Examples.ObjectManipulation
                 }
                 else
                 {
+                    GameObject[] objectList = new GameObject[ObjectPrefabList.Length];
+
                     // Instantiate game object at the hit pose.
-                    var gameObject = Instantiate(PawnPrefab, hit.Pose.position, hit.Pose.rotation);
+                    objectList[selectedObject] = Instantiate(ObjectPrefabList[selectedObject], hit.Pose.position, hit.Pose.rotation);
+                    objectList[selectedObject].SetActive(true);
+
 
                     // Instantiate manipulator.
                     var manipulator =
                         Instantiate(ManipulatorPrefab, hit.Pose.position, hit.Pose.rotation);
 
                     // Make game object a child of the manipulator.
-                    gameObject.transform.parent = manipulator.transform;
+                    objectList[selectedObject].transform.parent = manipulator.transform;
 
                     // Create an anchor to allow ARCore to track the hitpoint as understanding of
                     // the physical world evolves.
@@ -112,6 +119,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
 
                     // Select the placed object.
                     manipulator.GetComponent<Manipulator>().Select();
+                    selectedObject++;
                 }
             }
         }
