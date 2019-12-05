@@ -12,7 +12,7 @@
     </activity>
     <meta-data android:name="unity.tango-enable" android:value="True" />
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
-    <meta-data android:name="unity.build-id" android:value="1041962f-9192-4e9d-813c-8930449351bd" />
+    <meta-data android:name="unity.build-id" android:value="269447bf-e20b-4b3b-a883-470df9cc0211" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />

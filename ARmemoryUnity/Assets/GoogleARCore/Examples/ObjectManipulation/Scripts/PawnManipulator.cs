@@ -57,6 +57,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             if (gesture.TargetObject == null)
             {
                 return true;
+                
             }
 
             return false;

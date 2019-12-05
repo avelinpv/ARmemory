@@ -133,6 +133,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <param name="gesture">The current gesture.</param>
         protected virtual void OnStartManipulation(TapGesture gesture)
         {
+            m_SelectedObject.GetComponent<AudioSource>().Play();
             // Optional override.
         }
 
@@ -248,7 +249,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// Function called when this game object becomes the Selected Object.
         /// </summary>
         protected virtual void OnSelected()
-        {
+        {   
             // Optional override.
         }
 
