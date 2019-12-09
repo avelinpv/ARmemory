@@ -245,6 +245,7 @@
      <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\TransparentShadow.shader" />
      <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
+     <None Include="Assets\Assets\JuliusCaesarBust\readme_first.txt" />
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PointCloud.shader" />
      <None Include="Assets\GoogleARCore\Examples\ComputerVision\Materials\EdgeDetectionBackground.shader" />
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />

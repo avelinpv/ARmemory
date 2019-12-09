@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-ldpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-ldpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-hdpi_app_icon.png.flat",
+        "source": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/src/main/res/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/raw_keep_arcore.xml.flat",
+        "source": "/home/avelinpv/.gradle/caches/transforms-2/files-2.1/f64093bddf42a01dcbf07afefec903e4/res/raw/keep_arcore.xml"
+    },
+    {
+        "merged": "/home/avelinpv/multimodala/ARmemory/ARmemoryUnity/Temp/gradleOut/build/intermediates/res/merged/release/layout___arcore_education.xml.flat",
+        "source": "/home/avelinpv/.gradle/caches/transforms-2/files-2.1/f64093bddf42a01dcbf07afefec903e4/res/layout/__arcore_education.xml"
+    }
+]
