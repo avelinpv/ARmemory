@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ManipulationSystem
   - sound
+  - button
   layers:
   - Default
   - TransparentFX
