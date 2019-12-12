@@ -100,7 +100,10 @@ namespace GoogleARCore.Examples.ObjectManipulation
                     GameObject[] objectList = new GameObject[ObjectPrefabList.Length];
 
                     // Instantiate game object at the hit pose.
-                    objectList[selectedObject] = Instantiate(ObjectPrefabList[selectedObject], hit.Pose.position, hit.Pose.rotation);
+                    Vector3 distToPlane = new Vector3 (0.0f, 0.5f, 0f);
+                    Quaternion adjustRotation = Quaternion.Euler(0, 180, 0);
+
+                    objectList[selectedObject] = Instantiate(ObjectPrefabList[selectedObject], hit.Pose.position + distToPlane, hit.Pose.rotation*adjustRotation);
                     objectList[selectedObject].SetActive(true);
 
 

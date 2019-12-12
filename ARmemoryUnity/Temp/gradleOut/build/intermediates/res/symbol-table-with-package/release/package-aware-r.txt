@@ -1,4 +1,4 @@
-com.DefaultCompany.ObjectManipulationU3D
+com.DefaultCompany.memARy
 id __arcore_cancelButton
 id __arcore_continueButton
 id __arcore_messageText

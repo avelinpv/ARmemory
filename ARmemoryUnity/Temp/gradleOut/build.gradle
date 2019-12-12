@@ -46,7 +46,7 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 28
-        applicationId 'com.DefaultCompany.ObjectManipulationU3D'
+        applicationId 'com.DefaultCompany.memARy'
         ndk {
             abiFilters 'armeabi-v7a'
         }

@@ -108,6 +108,7 @@ namespace GoogleARCore.Examples.Common
         [Tooltip("The Game Object that contains the button to close the help window.")]
         [SerializeField] private Button m_GotItButton = null;
 
+
         /// <summary>
         /// The elapsed time ARCore has been detecting at least one plane.
         /// </summary>
